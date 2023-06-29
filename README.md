@@ -6,4 +6,4 @@ Git Fetch is the command that tells the local repository that there are changes 
 
 ## git pull
 
-Git Pull on the other hand brings the copy of the remote directory changes into the local repository. Let us look at Git Fetch and Git Pull separately with the help of an example.
+Git Pull on the other hand brings the copy of the remote directory changes into the local repository. Let us look at Git Fetch and Git Pull separately with the help of an example!
