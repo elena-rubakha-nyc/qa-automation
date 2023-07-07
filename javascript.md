@@ -103,3 +103,16 @@ All the comparison operators above can also be used on strings. Note that string
   - let text1 = "What a very ";
   - text1 += "nice day";
   - The result of text1 will be: What a very nice day
+
+# Dynamic Typing
+
+Javascript is a dynamic typing language. When you declare a variable, you do not need to specify what type this variable is. Javascript engine infers what type this variable is based on the value assigned to at run time. Variable type can be changed at any time
+
+```
+let country = "USA"
+console.log(typeof country)
+//output: string
+country = 7
+console.log(typeof country)
+//output: number
+```
