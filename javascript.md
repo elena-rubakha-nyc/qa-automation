@@ -9,13 +9,15 @@ assigns a value to a variable:
 
 Types:
 
-- =
-- +=
-- -=
-- \*=
-- /=
-- %=
-- \*\*=
+| Operator | Example   | Same As      |
+| -------- | --------- | ------------ |
+| =        | x = y     | x = y        |
+| +=       | x += y    | x = x + y    |
+| -=       | x -= y    | x = x - y    |
+| \*=      | x \*= y   | x = x \* y   |
+| /=       | x /= y    | x = x / y    |
+| %=       | x %= y    | x = x % y    |
+| \*\*=    | x \*\*= y | x = x \*\* y |
 
 # JavaScript Arithmetic Operators
 
