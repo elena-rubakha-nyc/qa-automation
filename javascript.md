@@ -51,19 +51,43 @@ returns the division remainder:
 
 ## Increment Operator (++)
 
-increments numbers:
+increments numbers by 1:
 
-- llet x = 5;
-- x++;
-- let z = x;
+```JavaScript
+let x = 5;
+x++;
+console.log(x);
+// Output: 6
+```
+
+Difference between x++ and ++x:
+
+```JavaScript
+let x = 0;
+result = ++x;
+// x = x + 1;
+// result = x;
+console.log(`result = ${result} x = ${x}`);
+// Output: result = 1   x = 1
+
+let x = 0;
+result = x++;
+// result = x;
+// x = x + 1;
+console.log(`result = ${result}   x = ${x}`);
+// Output: result = 0   x = 1
+```
 
 ## Decrement Operator (--)
 
-decrements numbers:
+decrements numbers by 1:
 
-- let x = 5;
-- x--;
-- let z = x;
+```Javascript
+let x = 5;
+x--;
+console.log(x);
+// Output: 4
+```
 
 ## Exponentiation Operator (\*\*)
 
